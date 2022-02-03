@@ -144,7 +144,7 @@ img {
     color: red;
 }
 
-@media (max-width:350px){
+@media (min-width:200px){
     .drum{
         width: 121px;
         
