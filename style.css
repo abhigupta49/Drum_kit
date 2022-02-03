@@ -1,0 +1,145 @@
+body{
+    text-align: center;
+    background-color: #283149;
+}
+
+h1{
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 3px 0 #da0463;
+}
+
+.drum{
+    outline: none;
+    border: 10px solid #404869;
+    font-size: 5rem;
+    line-height: 2;
+    font-weight: 900;
+    color: #da0463;
+    text-shadow: 3px 0 #dbedf3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    
+    background-color: white;
+}
+
+
+
+.w{
+    background-image: url(images/tom1.png);
+}
+
+.a{
+    background-image: url(images/tom2.png);
+}
+
+.s{
+    background-image: url(images/tom3.png);
+}
+
+.d{
+    background-image: url(images/tom4.png);
+}
+
+.j{
+    background-image: url(images/crash.png);
+}
+
+.k{
+    background-image: url(images/snare.png);
+}
+
+.l{
+    background-image: url(images/kick.png);
+}
+
+/* Footer */
+h2{
+    color: #fff;
+    text-shadow: 3px 0 #da0463;
+}
+
+p{
+    color: #fff;
+    text-shadow: 3px 0 #da0463;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.container2 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+span a {
+	font-size: 25px;
+	color: #cccccc;
+	text-decoration: none;
+	margin: 0 10px;
+	transition: all 0.4s ease-in-out;
+	
+}
+
+span a:hover{
+	color: gray;
+}
+
+.avatar {
+    margin-top: 2.2rem;
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	border: 5px #fff solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px #da0463;
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	
+}
+img { 
+	width: 131%;
+    height: 100%;
+    margin-left: -1.8rem;
+}
+.content {
+	width: 100%;
+	max-width: 600px;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.set{
+    margin: 10% auto;
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.6;
+}
+
+.red{
+    color: red;
+}
