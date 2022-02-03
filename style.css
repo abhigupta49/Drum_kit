@@ -143,3 +143,11 @@ img {
 .red{
     color: red;
 }
+
+@media (max-width:350px){
+    .drum{
+        width: 121px;
+        
+    }
+    
+}
